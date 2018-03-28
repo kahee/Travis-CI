@@ -4,9 +4,7 @@ from django.test import TestCase
 class Errorexec(TestCase):
 
     def check_number(self):
-        num = 2
-
-        self.assertEqual(num, 3)
+        self.assertEqual(2, 3)
 
 
 
